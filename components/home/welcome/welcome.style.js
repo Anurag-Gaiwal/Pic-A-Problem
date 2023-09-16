@@ -3,6 +3,17 @@ import { StyleSheet } from "react-native";
 import { COLORS, FONT, SIZES } from "../../../constants";
 
 const styles = StyleSheet.create({
+  button: {
+    backgroundColor: 'blue', // Button background color
+    padding: 10, // Button padding
+    borderRadius: 5, // Button border radius
+  },
+  buttonText: {
+    color: 'white', // Text color
+    fontSize: 16, // Text font size
+    fontWeight: 'bold', // Text font weight
+  },
+
   container: {
     width: "100%",
   },
@@ -40,7 +51,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: SIZES.medium,
   },
   searchBtn: {
-    width: 50,
+    width: 200,
     height: "100%",
     backgroundColor: COLORS.tertiary,
     borderRadius: SIZES.medium,
